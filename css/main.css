@@ -301,8 +301,14 @@ Navbar
   display: flex;
   flex-direction: column;
   /* todo */
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
 }
 
+.show-links {
+  height: 310px;
+}
 .nav-link {
   display: block;
   text-align: center;
